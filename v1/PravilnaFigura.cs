@@ -9,6 +9,9 @@ namespace WFAOOPP
         public abstract double Povrsina();
         public abstract double Obim();
 
-
+        public static string GetName() 
+        {
+            return "Dobrodosli!!!\nUnesite neki broj";        
+        }
     }
 }

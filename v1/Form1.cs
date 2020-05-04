@@ -16,6 +16,7 @@ namespace v1
         public Form1()
         {
             InitializeComponent();
+            Naslov.Text = PravilnaFigura.GetName();
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.Naslov = new System.Windows.Forms.Label();
             this.Velicina_stranica = new System.Windows.Forms.TextBox();
             this.Unos = new System.Windows.Forms.ListBox();
             this.Povrsina = new System.Windows.Forms.Label();
@@ -36,15 +36,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Naslov
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Unesite stranicu";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Naslov.AutoSize = true;
+            this.Naslov.Location = new System.Drawing.Point(93, 32);
+            this.Naslov.Name = "Naslov";
+            this.Naslov.Size = new System.Drawing.Size(83, 13);
+            this.Naslov.TabIndex = 0;
+            this.Naslov.Text = "Unesite stranicu";
+            this.Naslov.Click += new System.EventHandler(this.label1_Click);
             // 
             // Velicina_stranica
             // 
@@ -102,7 +102,7 @@
             this.Controls.Add(this.Povrsina);
             this.Controls.Add(this.Unos);
             this.Controls.Add(this.Velicina_stranica);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Naslov);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -113,7 +113,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Naslov;
         private System.Windows.Forms.TextBox Velicina_stranica;
         private System.Windows.Forms.ListBox Unos;
         private System.Windows.Forms.Label Povrsina;
